@@ -1,1 +1,63 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap');
+@import 'ngx-toastr/toastr';
+
+:root {
+  --primary: #00A9FF !important;
+  --secondary: #CDF5FD !important;
+  --body-text-color: #5C5470;
+  --navbar-footer-color: #F5F7F8;
+}
+
+
+body {
+  font-size: 12px;
+  color: var(--body-text-color) !important;
+  font-family: 'Poppins', sans-serif !important;
+
+}
+
+.site-logo {
+  padding: 5px 20px;
+  background-color: var(--secondary);
+  border-radius: 20px;
+  color: var(--body-text-color);
+}
+
+.nav-link {
+  color: var(--body-text-color);
+}
+
+.shadow-effect {
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  padding-left: 15px;
+  height: 60px;
+  font-size: 13px;
+  width: 100% !important;
+}
+
+.btn-theme {
+  height: 60px;
+  font-size: 13px;
+  background-color: var(--primary) !important;
+  color: #fff !important;
+}
+
+.bg-secondary-theme {
+  background-color: var(--secondary) !important;
+}
+
+.text-theme-primary {
+  color: var(--primary);
+}
+
+.bg-theme {
+  background-color: var(--primary) !important;
+}
